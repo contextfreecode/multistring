@@ -1,4 +1,8 @@
 class Multi {
+    /**
+     * @param args the command line arguments, where e.g. "java Multi.java hi"
+     *             gives an array of just one element: "hi".
+     */
     public static void main(String[] args) {
         var text = """
             Parameters
