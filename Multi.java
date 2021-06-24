@@ -9,7 +9,7 @@ class Multi {
           function hello() {
             print("name\tage");   
           }
-          
+
           hello();
           """;
         System.out.println(text);

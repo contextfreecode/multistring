@@ -1,3 +1,6 @@
+import textwrap
+
+
 def main():
     """
     Function `main` runs the main program, doncha know.
@@ -8,9 +11,10 @@ def main():
       function hello() {
         print("name\tage");   
       }
-      
+
       hello();
     """
+    # text = textwrap.dedent(text).strip()
     print(text)
     # Data
     data = (

@@ -6,7 +6,7 @@ auto main() -> int {
     function hello() {
       print("name\tage");   
     }
-    
+
     hello();
   )";
   std::cout << text << "\n";
