@@ -3,11 +3,11 @@
 auto main() -> int {
   // Text
   auto text = R"(
-      function hello() {
-          print("name\tage");   
-      }
-      
-      hello();
+    function hello() {
+      print("name\tage");   
+    }
+    
+    hello();
   )";
   std::cout << text << "\n";
   // Data

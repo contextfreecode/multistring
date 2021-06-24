@@ -5,11 +5,11 @@ def main():
 
     # Text
     text = """
-        function hello() {
-            print("name\tage");   
-        }
-        
-        hello();
+      function hello() {
+        print("name\tage");   
+      }
+      
+      hello();
     """
     print(text)
     # Data
