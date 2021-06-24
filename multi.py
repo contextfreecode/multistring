@@ -3,7 +3,7 @@ def main():
         function hello() {
             print("name\tage");   
         }
-
+        
         hello();
     """
     print(text)
