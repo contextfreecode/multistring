@@ -1,4 +1,9 @@
 def main():
+    """
+    Function `main` runs the main program, doncha know.
+    """
+
+    # Text
     text = """
         function hello() {
             print("name\tage");   
@@ -7,6 +12,7 @@ def main():
         hello();
     """
     print(text)
+    # Data
     data = (
         b"GIF89a\x01\x00\x01\x00\x80\x01\x00\xff\xff\xff\x00\x00\x00!"
         b"\xf9\x04\x01\n\x00\x01\x00,\x00\x00\x00\x00\x01\x00\x01\x00"

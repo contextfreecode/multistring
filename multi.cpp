@@ -1,12 +1,18 @@
 #include <iostream>
 
 auto main() -> int {
-    auto text = R"heredoc(
-        function hello() {
-            print("name\tage");   
-        }
-        
-        hello();
-    )heredoc";
-    std::cout << text << "\n";
+  // Text
+  auto text = R"(
+      function hello() {
+          print("name\tage");   
+      }
+      
+      hello();
+  )";
+  std::cout << text << "\n";
+  // Data
+  char data[] = "GIF89a\x01\x00\x01\x00\x80\x01\x00\xff\xff\xff\x00\x00\x00!"
+                "\xf9\x04\x01\n\x00\x01\x00,\x00\x00\x00\x00\x01\x00\x01\x00"
+                "\x00\x02\x02L\x01\x00;";
+  std::cout << sizeof(data) - 1 << "\n";
 }

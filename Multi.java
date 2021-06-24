@@ -7,11 +7,11 @@ class Multi {
         // Example from https://openjdk.java.net/jeps/378
         var text = """
             function hello() {
-                print("name\tage");
+                print("name\tage");   
             }
-
+            
             hello();
-        """;
+            """;
         System.out.println(text);
         // var data =
         //     "\u4749\u4638\u3961\u0100\u0100\u8001\u00ff\uffff\u0000\u0021" +
