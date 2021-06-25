@@ -13,6 +13,7 @@ class Multi {
           hello();
           """;
         System.out.println(text);
+        // Binary
         // var data =
         //     "\u4749\u4638\u3961\u0100\u0100\u8001\u00ff\uffff\u0000\u0021" +
         //     "\uf904\u010a\u0001\u002c\u0000\u0000\u0100\u0100\u0002\u024c" +
