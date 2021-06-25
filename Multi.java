@@ -26,11 +26,8 @@ class Multi {
         //     System.out.printf("%02x\n", c >> 8);
         //     System.out.printf("%02x\n", c & 0xFF);
         // }
-        // System.out.println("---");
-        // var d2 = Multi.class.getResourceAsStream("pixel.png").readAllBytes();
-        // for (var b: d2) {
-        //     System.out.printf("%02x\n", b);
-        // }
+        var data = Multi.class.getResourceAsStream("pixel.png").readAllBytes();
+        System.out.println(data.length);
         // var data =
         //     "GIF89a\x01\x00\x01\x00\x80\x01\x00\xff\xff\xff\x00\x00\x00!" +
         //     "\xf9\x04\x01\n\x00\x01\x00,\x00\x00\x00\x00\x01\x00\x01\x00" +
