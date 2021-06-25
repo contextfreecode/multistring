@@ -4,7 +4,7 @@ function main() {
   // Text
   const text = `
     function hello() {
-      print("name\tage");   
+      console.log("name\tage");   
     }
 
     hello();
@@ -13,7 +13,7 @@ function main() {
   // JSX
   const more = <div>
     function hello() &#x7B;
-      print("name\tage");   
+      console.log("name\tage");   
     {"}"}
 
     hello();

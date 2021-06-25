@@ -7,7 +7,7 @@ class Multi {
         // Example from https://openjdk.java.net/jeps/378
         var text = """
           function hello() {
-            print("name\tage");   
+            console.log("name\tage");   
           }
 
           hello();

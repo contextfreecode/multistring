@@ -5,7 +5,7 @@ pub fn main() !void {
     // Text
     const text =
         \\function hello() {
-        \\    print("name\tage");   
+        \\  console.log("name\tage");   
         \\}
         \\
         \\hello();

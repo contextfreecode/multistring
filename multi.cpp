@@ -4,7 +4,7 @@ auto main() -> int {
   // Text
   auto text = R"(
     function hello() {
-      print("name\tage");   
+      console.log("name\tage");   
     }
 
     hello();

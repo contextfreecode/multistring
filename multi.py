@@ -9,7 +9,7 @@ def main():
     # Text
     text = """
       function hello() {
-        print("name\tage");   
+        console.log("name\tage");   
       }
 
       hello();
