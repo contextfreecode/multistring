@@ -1,3 +1,5 @@
+% gs -dBATCH -dNODISPLAY multi.ps | sed 's/$/|/'
+
 /main {
     % Text
     /text (
@@ -9,6 +11,11 @@
     ) def
     text print
     % Binary
+    /data <
+        47494638396101000100800100ffffff00000021f904010a0001002c0000000001
+        0001000002024c01003b
+    > def
+    data length =
 } bind def
 
 main
