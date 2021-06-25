@@ -11,7 +11,7 @@ pub fn main() !void {
         \\hello();
     ;
     try stdout.print("{}\n", .{text});
-    // Data
+    // Binary
     // xxd multi | grep -A3 GIF
     // const data =
     //     "GIF89a\x01\x00\x01\x00\x80\x01\x00\xff\xff\xff\x00\x00\x00!" ++
