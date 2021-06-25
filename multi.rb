@@ -1,12 +1,12 @@
 def main
     # Text
-    text = <<~HEREDOC
+    text = '
       function hello() {
         console.log("name\tage");   
       }
 
       hello();
-    HEREDOC
+    '
     # text = textwrap.dedent(text).strip()
     puts text
     # Binary
