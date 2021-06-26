@@ -9,7 +9,7 @@ class Multi {
           function hello() {
             console.log("name\tage");   
           }
-
+        
           hello();
           """;
         System.out.println(text);

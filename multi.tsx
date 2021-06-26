@@ -6,7 +6,7 @@ function main() {
     function hello() {
       console.log("name\tage");   
     }
-
+  
     hello();
   `;
   console.log(text);
@@ -15,7 +15,7 @@ function main() {
     function hello() &#x7B;
       console.log("name\tage");   
     {"}"}
-
+  
     hello();
   </div>;
   console.log(more.props.children);

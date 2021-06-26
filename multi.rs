@@ -6,7 +6,7 @@ fn main() {
         function hello() {
           console.log(\"name\tage\");   
         }
-
+    
         hello();
         ";
     println!("{}", &text);

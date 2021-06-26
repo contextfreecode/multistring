@@ -4,7 +4,7 @@ func main() {
     function hello() {
       console.log("name\tage");   
     }
-
+    
     hello();
     """
   print(text)

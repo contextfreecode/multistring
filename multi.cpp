@@ -6,7 +6,7 @@ auto main() -> int {
     function hello() {
       console.log("name\tage");   
     }
-
+  
     hello();
   )";
   std::cout << text << "\n";

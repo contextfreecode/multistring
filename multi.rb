@@ -4,7 +4,7 @@ def main
     function hello() {
       console.log(\"name\tage\");   
     }
-
+  
     hello();
   "
   # text = textwrap.dedent(text).strip()
