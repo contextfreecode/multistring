@@ -1,12 +1,12 @@
 def main
   # Text
-  text = '
+  text = "
     function hello() {
-      console.log("name\tage");   
+      console.log(\"name\tage\");   
     }
 
     hello();
-  '
+  "
   # text = textwrap.dedent(text).strip()
   puts text
   # Binary
