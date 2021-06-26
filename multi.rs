@@ -18,5 +18,4 @@ fn main() {
     //     ";
     let data = include_bytes!("pixel.png");
     println!("{}", data.len());
-    // println!("{:?}", &data);
 }
