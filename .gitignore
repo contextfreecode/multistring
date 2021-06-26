@@ -1,3 +1,4 @@
 env.sh
 multi
 target
+*.class
